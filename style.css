@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url('http://www.smallteaco.com/backend/media/images/tea.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.content {
+	max-width: 50em;
+	margin: 10em auto;
+	padding: 3em 5em;
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+}
+.content:first-child {
+	margin-top: 75vh;
+}
+.content h1:first-child {
+	margin-top: 0;
+}
